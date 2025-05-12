@@ -1,0 +1,30 @@
+/*1. Poner font-size a todas la h*/
+section h2{
+    font-size: 50px;
+
+/*4. Agregar un color gold a el elemento "p" que esta enseguida del h2*/
+    color: gold;
+}
+
+aside h3{
+    font-size: 50px;
+}
+
+/*2. Quitar el subrayado a todos los elementos "a"*/
+header a{
+    color: firebrick;
+    text-decoration: underline;
+}
+
+footer a{
+    color: firebrick;
+    text-decoration: underline;
+/*3. Un font-size de 20px con negritas solo a los elementos "a" que sean hijos directos*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*5. Agregar un color indigo a todos los parrafos que esten despues de un elemento "h3"*/
+aside p{
+    color: indigo;
+}
